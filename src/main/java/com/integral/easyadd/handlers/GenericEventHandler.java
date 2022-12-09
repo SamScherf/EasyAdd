@@ -1,9 +1,9 @@
-package com.integral.examplemod.handlers;
+package com.integral.easyadd.handlers;
 
 import java.util.Random;
 
-import com.integral.examplemod.ExampleMod;
-import com.integral.examplemod.network.packets.ExamplePacket;
+import com.integral.easyadd.EasyAdd;
+import com.integral.easyadd.network.packets.ExamplePacket;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
@@ -21,7 +21,7 @@ public class GenericEventHandler {
 
         if (!entity.worldObj.isRemote && entity instanceof EntityPlayerMP) {
             System.out.println("Entity joined world: " + entity);
-            ExampleMod.packetHandler.sendTo(new ExamplePacket(), (EntityPlayerMP)entity);
+            EasyAdd.packetHandler.sendTo(new ExamplePacket(), (EntityPlayerMP)entity);
         }
     }
 

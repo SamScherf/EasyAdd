@@ -1,4 +1,4 @@
-package com.integral.examplemod.proxy;
+package com.integral.easyadd.proxy;
 
 import java.util.HashMap;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package com.integral.examplemod.handlers;
+package com.integral.easyadd.handlers;
 
 import baubles.api.BaublesApi;
 import baubles.common.container.InventoryBaubles;

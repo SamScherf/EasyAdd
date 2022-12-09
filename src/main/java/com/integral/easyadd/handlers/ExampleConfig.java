@@ -1,4 +1,4 @@
-package com.integral.examplemod.handlers;
+package com.integral.easyadd.handlers;
 
 import java.io.File;
 

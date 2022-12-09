@@ -1,4 +1,4 @@
-package com.integral.examplemod;
+package com.integral.easyadd;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -11,10 +11,10 @@ import java.io.File;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.integral.examplemod.handlers.ExampleConfig;
-import com.integral.examplemod.handlers.GenericEventHandler;
-import com.integral.examplemod.network.packets.ExamplePacket;
-import com.integral.examplemod.proxy.CommonProxy;
+import com.integral.easyadd.handlers.ExampleConfig;
+import com.integral.easyadd.handlers.GenericEventHandler;
+import com.integral.easyadd.network.packets.ExamplePacket;
+import com.integral.easyadd.proxy.CommonProxy;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -29,18 +29,18 @@ import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-@Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION, name = ExampleMod.NAME)
-public class ExampleMod {
-    public static final String MODID = "examplemod";
-    public static final String NAME = "The Example Mod";
+@Mod(modid = EasyAdd.MODID, version = EasyAdd.VERSION, name = EasyAdd.NAME)
+public class EasyAdd {
+    public static final String MODID = "easyadd";
+    public static final String NAME = "Easy Add";
     public static final String VERSION = "@VERSION@";
 
     public static SimpleNetworkWrapper packetHandler;
 
-    @SidedProxy(clientSide = "com.integral.examplemod.proxy.ClientProxy", serverSide = "com.integral.examplemod.proxy.CommonProxy")
+    @SidedProxy(clientSide = "com.integral.easyadd.proxy.ClientProxy", serverSide = "com.integral.easyadd.proxy.CommonProxy")
     public static CommonProxy proxy;
 
-    public static final Logger logger = LogManager.getLogger("ExampleMod");
+    public static final Logger logger = LogManager.getLogger("EasyAdd");
     public static final int howCoolAmI = Integer.MAX_VALUE;
 
     @EventHandler

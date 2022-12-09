@@ -1,4 +1,4 @@
-package com.integral.examplemod.network.packets;
+package com.integral.easyadd.network.packets;
 
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
