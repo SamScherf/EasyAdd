@@ -27,15 +27,19 @@ Adding items consists of fourth steps: Registering the item, adding the texture,
 
 ### Registering the item
 
+<<<<<<< HEAD
 Navigate to the initItems() method in the file 'src/main/java/com/integral/easyadd/EasyAddItems.java' and call the addItem/addFood methods repeatedly with the name of the item you'd like to add as shown in the examples.
+=======
+Navigate to the initItems() method in the file [src/main/java/com/integral/easyadd/EasyAddItems.java](/src/main/java/com/integral/easyadd/EasyAddItems.java) and call the addItem method repeatedly with the name of the item you'd like to add as shown in the mario example.
+>>>>>>> 8799c2a2229da6c48c484a3d7db670d0cf857fbb
 
 ### Adding a texture
 
-Add a 16x16 png with the same name as the item to 'src/main/resources/assets/easyadd/textures/items/' folder
+Add a 16x16 png with the same name as the item to [src/main/resources/assets/easyadd/textures/items/](/src/main/resources/assets/easyadd/textures/items/) folder
 
 ### Updating the language
 
-Navigate to the 'src/main/resources/assets/easyadd/lang/en_US.lang' file and mimic the mario example under the 'Items' section for every item you'd like to add
+Navigate to the [src/main/resources/assets/easyadd/lang/en_US.lang](/src/main/resources/assets/easyadd/lang/en_US.lang) file and mimic the mario example under the 'Items' section for every item you'd like to add
 
 ### Compiling
 
