@@ -27,11 +27,7 @@ Adding items consists of fourth steps: Registering the item, adding the texture,
 
 ### Registering the item
 
-<<<<<<< HEAD
-Navigate to the initItems() method in the file 'src/main/java/com/integral/easyadd/EasyAddItems.java' and call the addItem/addFood methods repeatedly with the name of the item you'd like to add as shown in the examples.
-=======
-Navigate to the initItems() method in the file [src/main/java/com/integral/easyadd/EasyAddItems.java](/src/main/java/com/integral/easyadd/EasyAddItems.java) and call the addItem method repeatedly with the name of the item you'd like to add as shown in the mario example.
->>>>>>> 8799c2a2229da6c48c484a3d7db670d0cf857fbb
+Navigate to the initItems() method in the file [src/main/java/com/integral/easyadd/EasyAddItems.java](/src/main/java/com/integral/easyadd/EasyAddItems.java) and call the addItem/addFood methods repeatedly with the name of the item you'd like to add as shown in the examples.
 
 ### Adding a texture
 
