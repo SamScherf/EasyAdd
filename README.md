@@ -1,6 +1,6 @@
 # EasyAdd
 
-This purpose of this mod is to allow non-developers to easily add things to their game. Right now the mod only supports 1.7.10 and only supports adding non-functional items.
+This purpose of this minecraft mod is to allow non-developers to easily add things to their game. Right now the mod only supports 1.7.10 and only supports adding non-functional items.
 
 ## Requirements
 
@@ -21,9 +21,17 @@ Next run the gradlew Decompose script
 ./gradlew setupDecompWorkspace
 ```
 
+To compile, run the gradlew build script like so:
+
+```
+./gradlew build
+```
+
+The resulting jar file be placed in the folder 'build/libs/'
+
 ## Usage
 
-Adding items consists of fourth steps: Registering the item, adding the texture, updating the lang file, and compiling.
+Adding items consists of three steps: Registering the item, adding the texture, and updating the lang file. After that, simply recompile the mod and enjoy!
 
 ### Registering the item
 
@@ -36,13 +44,3 @@ Add a 16x16 png with the same name as the item to [src/main/resources/assets/eas
 ### Updating the language
 
 Navigate to the [src/main/resources/assets/easyadd/lang/en_US.lang](/src/main/resources/assets/easyadd/lang/en_US.lang) file and mimic the mario example under the 'Items' section for every item you'd like to add
-
-### Compiling
-
-To compile, run the gradlew build script like so:
-
-```
-./gradlew build
-```
-
-The resulting jar file be placed in the folder 'build/libs/'
