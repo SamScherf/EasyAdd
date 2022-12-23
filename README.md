@@ -21,7 +21,7 @@ Next run the gradlew Decompose script
 ./gradlew setupDecompWorkspace
 ```
 
-To compile, run the gradlew build script like so:
+Lastly, to compile into a jar that can be put in your mods folder, run the gradlew build script like so:
 
 ```
 ./gradlew build
