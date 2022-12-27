@@ -7,8 +7,8 @@ import com.integral.easyadd.items.EasyAddItem;
 import com.integral.easyadd.items.EasyAddFood;
 
 
-public class EasyAddItems
-{
+public class EasyAddItems {
+
     public static Item addItem(String name) {
 	    Item newItem = new EasyAddItem(name);
 	    return newItem;
