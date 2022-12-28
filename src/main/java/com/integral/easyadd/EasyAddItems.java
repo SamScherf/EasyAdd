@@ -1,27 +1,24 @@
 package com.integral.easyadd;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemFood;
-
 import com.integral.easyadd.items.EasyAddItem;
 import com.integral.easyadd.items.EasyAddFood;
 
 
 public class EasyAddItems {
 
-    public static Item addItem(String name) {
-	    Item newItem = new EasyAddItem(name);
+    public static EasyAddItem addItem(String name) {
+	    EasyAddItem newItem = new EasyAddItem(name);
 	    return newItem;
     }
 
-    public static ItemFood addFood(String name, int hunger, float saturation, boolean wolf) {
-	    ItemFood newFood = new EasyAddFood(name, hunger, saturation, wolf);
+    public static EasyAddFood addFood(String name, int hunger, float saturation, boolean wolf) {
+	    EasyAddFood newFood = new EasyAddFood(name, hunger, saturation, wolf);
 	    return newFood;
 
     }
 
-    public static ItemFood addFood(String name, int hunger, float saturation) {
-	    ItemFood newFood = new EasyAddFood(name, hunger, saturation);
+    public static EasyAddFood addFood(String name, int hunger, float saturation) {
+	    EasyAddFood newFood = new EasyAddFood(name, hunger, saturation);
 	    return newFood;
 
     }
