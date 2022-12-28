@@ -5,8 +5,20 @@ import net.minecraft.item.ItemFood;
 
 import com.integral.easyadd.EasyAdd;
 
+/**
+ * This class is a more user friendly version of the default ItemFood class
+ *
+ **/
 public class EasyAddFood extends ItemFood {
-
+    /**
+     * This constructor creates a new food item, sets base values, and registers
+     * the item
+     *
+     * @param name The internal name
+     * @param hunger The number of food points (half drumsticks)
+     * @param saturation The number of saturation points
+     * @param wolf A boolean representing if the food can be fed to wolfs
+     **/
     public EasyAddFood(String name, int hunger, float saturation, boolean wolf) {
 	// Create food item
 	super(hunger, saturation, wolf);
@@ -20,8 +32,12 @@ public class EasyAddFood extends ItemFood {
         GameRegistry.registerItem(this, name);
     }
 
+    /**
+     * wolf defaults to False.
+     *
+     * @see #EasyAddFood(String, int, float, boolean)
+     **/
     public EasyAddFood(String name, int hunger, float saturation) {
-	// Default wolf to false
 	this(name, hunger, saturation, false);
     }
 }
