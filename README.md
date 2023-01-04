@@ -35,7 +35,7 @@ Adding items consists of three steps: Registering the item, adding the texture, 
 
 ### Registering the item
 
-Navigate to the initialize() method of the [src/main/java/com/integral/easyadd/EasyAddCustom.java](EasyAddCustom) class file and initialize EasyAdd classes repeatedly as shown in the examples.
+Navigate to the initialize() method of the [EasyAddCustom](src/main/java/com/integral/easyadd/EasyAddCustom.java) class file and initialize EasyAdd classes repeatedly as shown in the examples.
 
 ### Adding a texture
 
