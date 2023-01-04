@@ -1,6 +1,6 @@
 # EasyAdd
 
-This purpose of this minecraft mod is to allow non-developers to easily add things to their game. Right now the mod only supports 1.7.10 and only supports adding non-functional items.
+The purpose of this minecraft mod is to allow non-developers to easily add things to their game. The mod implements child classes of common things in minecraft which are intended to be easier to interact with for non-developers. Since every EasyAdd class is a child of the regular minecraft class, more proficient developers can still add whatever they'd like beyond the simple functionality provided by EasyAdd,
 
 ## Requirements
 
@@ -35,7 +35,7 @@ Adding items consists of three steps: Registering the item, adding the texture, 
 
 ### Registering the item
 
-Navigate to the initItems() method in the file [src/main/java/com/integral/easyadd/EasyAddItems.java](/src/main/java/com/integral/easyadd/EasyAddItems.java) and call the addItem/addFood methods repeatedly with the name of the item you'd like to add as shown in the examples.
+Navigate to the initialize() method of the [src/main/java/com/integral/easyadd/EasyAddCustom.java](EasyAddCustom) class file and initialize EasyAdd classes repeatedly as shown in the examples.
 
 ### Adding a texture
 
@@ -43,4 +43,4 @@ Add a 16x16 png with the same name as the item to [src/main/resources/assets/eas
 
 ### Updating the language
 
-Navigate to the [src/main/resources/assets/easyadd/lang/en_US.lang](/src/main/resources/assets/easyadd/lang/en_US.lang) file and mimic the mario example under the 'Items' section for every item you'd like to add
+Navigate to the [src/main/resources/assets/easyadd/lang/en_US.lang](/src/main/resources/assets/easyadd/lang/en_US.lang) file and mimic the given examples under the 'Items' section for every item you'd like to add
