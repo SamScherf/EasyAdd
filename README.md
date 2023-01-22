@@ -44,3 +44,9 @@ Add a 16x16 png with the same name as the item to [src/main/resources/assets/eas
 ### Updating the language
 
 Navigate to the [src/main/resources/assets/easyadd/lang/en_US.lang](/src/main/resources/assets/easyadd/lang/en_US.lang) file and mimic the given examples under the 'Items' section for every item you'd like to add
+
+
+## Credits
+
+- [Aizistral-Studios](https://github.com/Aizistral-Studios/ForgeWorkspaceSetup)
+  - Big thanks to Aizistral-Studios for his forge workspace. Without it I likely would've never gotten over the inital hump of setting up the development enviroment
